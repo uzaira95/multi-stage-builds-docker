@@ -22,7 +22,7 @@ jobs:
           
     - name: Pushing the Image to Docker Hub
       run: |
-            docker push frehman/pipe1:latest
+            docker push uzair1232/pipe1:latest
             
     - name: echo kar raha hu
       run: |
