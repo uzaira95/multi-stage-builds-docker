@@ -24,8 +24,7 @@ jobs:
       run: |
             docker push frehman/pipe1:$IMAGE_VERSION
             
-    - name: SSH Authentication with the Deployment Server
+    - name: echo kar raha hu
       run: |
-             mkdir -p ~/.ssh/
-             echo "${{secrets.SSH_KEY}}" > ~/.ssh/deploy.pem
-             chmod 600 ~/.ssh/deploy.pem
+             echo "uzair"
+            
