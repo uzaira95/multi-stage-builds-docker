@@ -2,9 +2,9 @@ name: Multi-Stage Docker Builds
 
 on:
   push:
-    branches: [ "mai000n" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "maiooon" ]
+    branches: [ "main" ]
 
 jobs:
   build:
