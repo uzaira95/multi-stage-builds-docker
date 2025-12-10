@@ -26,5 +26,5 @@ jobs:
             
     - name: echo kar raha hu
       run: |
-             echo "uzair"
+             echo "uzai r"
             
